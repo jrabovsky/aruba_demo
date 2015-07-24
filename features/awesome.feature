@@ -1,4 +1,7 @@
-Feature: It outputs that the input is awesome
+Feature: awesome
+  In order to say that something is awesome
+  As as user of Jeff's awesome c program
+  I want to use the "awesome" command
 
   Scenario: With 'foo' as input
     When I run `awesome foo`
