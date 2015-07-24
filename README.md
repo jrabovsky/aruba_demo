@@ -1,5 +1,23 @@
 # Acceptance Testing CLIs: Cucumber/Aruba
 
+![software testing pyramid](http://martinfowler.com/bliki/images/testPyramid/pyramid.png)
+
+* Lower level tests
+  - Easy to write and maintain
+  - Run quickly and deterministicly
+  - Shows that the pieces work
+  - Not helpful to non-programmers
+  - NUnit (.Net), RSpec/minitest/Test::Unit (Ruby), Mocha/Jasmine (JavaScript)
+* High level tests
+  - Harder to write and maintain
+  - Slow and non-deterministic
+  - Shows the whole system works
+  - Not helpful to non-programmers
+  - Selenium, Sikuli, Watir
+
+## Frameworks for non-GUI/non-browser applications?
+* How would you test Git, Make, or Grep?
+
 ## What's Cucumber?
 * Cucumber turns user stories into acceptance tests
 * Cucumber features/scenarios aren't scary to non-programmers
